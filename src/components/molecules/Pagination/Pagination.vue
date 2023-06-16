@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center md:text-left">
+  <div class="text-center md:text-left pb-4">
     <div class="mt-4 divide-x border rounded inline-flex">
       <button
         class="h-8 w-8 p-2 bg-white rounded-l text-custom-green-500 disabled:text-custom-gray-400 enabled:hover:bg-custom-green-500 enabled:hover:bg-opacity-10"
