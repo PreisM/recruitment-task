@@ -6,5 +6,6 @@ export default {
   action: 'Action',
   modalRemove: 'Are you sure you want to remove {user} from the list?',
   confirm: 'Confirm',
-  decline: 'Decline'
+  decline: 'Decline',
+  noResult: 'No result'
 }

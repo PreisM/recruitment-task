@@ -2,7 +2,7 @@
   <img
     :src="path"
     class="rounded-full"
-    :class="size === 'sm' ? 'h-12 w-12' : ''"
+    :class="size === 'sm' ? 'h-12 w-12' : 'w-40 h-40'"
   >
 </template>
 
