@@ -32,8 +32,26 @@
       "@/*": [
         "./src/*"
       ],
-      "@/locales/*": [
+      "@locales/*": [
         "./src/locales/*"
+      ],
+      "@api/*": [
+        "./src/api/*"
+      ],
+      "@stores/*": [
+        "./src/stores/*"
+      ],
+      "@atoms/*": [
+        "./src/components/atoms/*"
+      ],
+      "@molecules/*": [
+        "./src/components/molecules/*"
+      ],
+      "@organisms/*": [
+        "./src/components/organisms/*"
+      ],
+      "@interfaces/*": [
+        "./src/interfaces/*"
       ]
     }
   },
