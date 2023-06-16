@@ -16,7 +16,7 @@
         <div class="py-6 px-12 text-custom-gray-700">
           <span
             class="text-xl font-semibold"
-            v-text="$t('list.modalRemove', { user: 'dupa' })"
+            v-text="$t('list.modalRemove', { user: `${removedUser.first_name} ${removedUser.last_name}` })"
           />
           <div class="mt-8 mx-auto space-x-4 text-center">
             <button
@@ -42,7 +42,11 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'AtomModalDelete',
   props: {
-    show: Boolean
+    show: Boolean,
+    removedUser: {
+      type: Object,
+      required: true
+    }
   },
   emits: ['remove', 'close']
 })
